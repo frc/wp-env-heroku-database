@@ -1,0 +1,19 @@
+{
+  "name": "frc/wp-env-heroku-database",
+  "license": "MIT",
+  "type": "library",
+  "description": "Export Heroku environment DATABASE_URL configuration for WordPress.",
+  "keywords": ["Heroku", "WordPress", "AWS", "Database"],
+  "authors": [
+    {
+      "name": "Ahti Nurminen",
+      "email": "ahti.nurminen@frantic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "files": [ "src/Database.php" ]
+  }
+}
